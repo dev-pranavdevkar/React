@@ -2,13 +2,16 @@ import React from "react";
 import { useState } from "react";
 export default function StateInFunctionalComp() {
   // =====================state Code======================
-  const [data, setData] = useState("Pranav");
-  // =====================================================
 
+  // =====================================================
+  const [data, setData] = useState("Pranav");
   function updateData() {
-    setData = "Devkar";
+    setData("gg");
     console.warn("clicked");
   }
+  // const updateData = () => {
+  //     setData('hh')
+  // }
   return (
     <div>
       <h1>State In Functional Componant</h1>
