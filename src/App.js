@@ -5,6 +5,9 @@ import ClassComp from "./my-code/ClassComp";
 import CompInComp from "./my-code/CompInComp";
 import ClickEventAndFunction from "./my-code/ClickEventAndFunction";
 import StateInFunctionalComp from "./my-code/StateInFunctionalComp";
+import StateInClassComp from "./my-code/StateInClassComp";
+import PropsWithFunctionalComp from "./my-code/PropsWithFunctionalComp";
+
 
 function App() {
   return (
@@ -16,6 +19,8 @@ function App() {
         <CompInComp />
         <ClickEventAndFunction />
         <StateInFunctionalComp />
+        <StateInClassComp />
+        <PropsWithFunctionalComp />
       </header>
     </div>
   );

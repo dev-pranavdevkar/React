@@ -6,7 +6,7 @@ export default function StateInFunctionalComp() {
   // =====================================================
   const [data, setData] = useState("Pranav");
   function updateData() {
-    setData("gg");
+    setData("Devkar");
     console.warn("clicked");
   }
   // const updateData = () => {
